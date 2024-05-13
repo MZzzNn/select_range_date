@@ -1,6 +1,6 @@
 part of '../select_range_date.dart';
 
-class SelectDateFromTo extends StatefulWidget {
+class SelectRangeDate extends StatefulWidget {
   final DateTime? startDate;
   final DateTime? endDate;
   final Function(DateTime startDate, DateTime endDate) onApplyClick;
@@ -9,7 +9,7 @@ class SelectDateFromTo extends StatefulWidget {
   final FooterOptions? footerOptions;
   final ExpansionPanelOptions? expansionOptions;
 
-  const SelectDateFromTo({
+  const SelectRangeDate({
     super.key,
     required this.startDate,
     required this.endDate,
@@ -31,7 +31,7 @@ class SelectDateFromTo extends StatefulWidget {
       backgroundColor: Colors.transparent,
       useRootNavigator: true,
       elevation: 3,
-      builder: (context) => SelectDateFromTo(
+      builder: (context) => SelectRangeDate(
         startDate: startDate,
         endDate: endDate,
         onApplyClick: onApplyClick,
@@ -41,10 +41,10 @@ class SelectDateFromTo extends StatefulWidget {
   }
 
   @override
-  State<SelectDateFromTo> createState() => _SelectDateFromToState();
+  State<SelectRangeDate> createState() => _SelectRangeDateState();
 }
 
-class _SelectDateFromToState extends State<SelectDateFromTo> {
+class _SelectRangeDateState extends State<SelectRangeDate> {
   late final SelectDateController controller;
 
   @override

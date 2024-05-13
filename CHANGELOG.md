@@ -11,6 +11,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Initial release of the `select_range_date` package.
 
 
+## [0.0.3] - 2024-05-13
+
+### Fixed
+- Fixed the SelectRangeDate.show() method issue.
+
 ## [0.0.2] - 2024-05-13
 
 ### Fixed
