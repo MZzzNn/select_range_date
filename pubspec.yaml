@@ -1,0 +1,25 @@
+name: select_range_date
+description: "A new Flutter package for select range date."
+version: 0.0.1
+homepage: https://github.com/mzzznn
+repository: https://github.com/mzzznn/select_range_date
+
+environment:
+  sdk: '>=3.3.2 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  intl: ^0.19.0
+  get: ^4.6.6
+  modal_bottom_sheet: ^3.0.0-pre
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
